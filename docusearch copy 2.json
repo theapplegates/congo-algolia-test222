@@ -1,0 +1,19 @@
+{
+	"index_name": "congo",
+	"scrape_start_urls": false,
+	"start_urls": [{
+			"url": "https://congo-search.netlify.app",
+			"page_rank": 1
+		},
+	],
+	"selectors": {
+		"default": {
+			"lvl0": ".content-page h1",
+			"lvl1": ".content h2",
+			"lvl2": ".content h3",
+			"lvl3": ".content h4",
+			"lvl4": ".content h5",
+			"text": ".content p"
+		}
+	}
+}
